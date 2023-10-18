@@ -8,7 +8,7 @@ namespace TestProject
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.IsTrue(Enum.GetNames(typeof(Project.Members)).Length == 3);
+            Assert.IsTrue(Enum.GetNames(typeof(Project.Members)).Length == 4);
         }
     }
 }
